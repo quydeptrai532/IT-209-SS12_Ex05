@@ -29,6 +29,3 @@ git push -u origin main
 
 Vao GitHub -> Actions -> CI Matrix Test, kiem tra 2 job Java 17 va 21 xanh, chup anh nop bai.
 
-**Luu y:** Do moi truong tao ZIP khong tai duoc Gradle wrapper JAR chinh thuc, `gradlew` va `gradlew.bat` la launcher tu dong tai Gradle 8.14.3 lan dau (khong phai Gradle Wrapper chinh thuc). May chay can internet; Windows can PowerShell, Linux can curl/unzip. GitHub Actions Ubuntu ho tro cac cong cu nay. De thay bang wrapper chinh thuc, khi da cai Gradle co the chay `gradle wrapper --gradle-version 8.14.3` va commit `gradle/wrapper/gradle-wrapper.jar` cung cac script moi.
-
-**Chua xac minh test tren GitHub Actions:** Can push len GitHub de kiem tra ket qua thuc te.
